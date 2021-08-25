@@ -10,7 +10,7 @@ defmodule Todos.Accounts.User do
     field :username, :string
 
     timestamps()
-  end
+  end 
 
   @doc false
   def changeset(user, attrs) do
