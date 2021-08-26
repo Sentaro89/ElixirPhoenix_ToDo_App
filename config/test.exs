@@ -7,8 +7,8 @@ use Mix.Config
 # Run `mix help test` for more information.
 config :todos, Todos.Repo,
   username: "postgres",
-  password: "12345678",
-  database: "todos_test",
+  password: "rahasia",
+  database: "Todos.Repo",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox 
 

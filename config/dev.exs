@@ -4,8 +4,8 @@ use Mix.Config
 config :todos, Todos.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
-  database: "todos_dev",
+  password: "rahasia",
+  database: "Todos.Repo",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
